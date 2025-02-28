@@ -1,8 +1,11 @@
 # SQL-data-cleaning
 ### Features
 ### First 10 rows
-```select * from club_member_info cmi LIMIT 10;```
-The result
+Query 
+```sql
+select * from club_member_info cmi LIMIT 10;
+```
+The result:
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
 |addie lush|40|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
